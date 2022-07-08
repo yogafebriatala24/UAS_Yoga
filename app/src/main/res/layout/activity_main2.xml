@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3A4B40"
+    tools:context="com.example.uas_yogafebriatala.MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="#9CB0A4">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/enter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Shared Preferences"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+    <TextView
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:paddingLeft="140dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editext_name"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:hint="Enter Full Name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/editext_email"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:hint="Enter Email ID"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:padding="1dp">
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#2196F3"
+            android:text="Save"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>
